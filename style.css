@@ -1,0 +1,85 @@
+body{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+}
+
+.container{
+    background-color: rgba(16, 103, 17, 0.876) ;
+    padding: 20px;
+    margin: 2px solid black;
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px rgb(23,24,88);
+    width: 300px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+form{
+    display: flex;
+}
+
+input{
+    flex: 2;
+    padding: 12px;
+    margin: 2px solid red;
+    margin-right: 12px ;
+    border: 1px solid black;
+    border-radius: 4px black;
+
+}
+
+button{
+    padding: 15px 15px;
+    border: none;
+    background-color: burlywood;
+    color: rgb(rgba(126, 8, 8, 0.389), rgb(31, 132, 31), rgba(25, 25, 131, 0.718));
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: brown;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    background-color: fuchsia;
+    margin: 5px 2px;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: black;
+}
+
+li button{
+    background: none;
+    border: none;
+    color: green;
+    cursor: pointer;
+}
+
+li button:hover{
+    background-color: black;
+    color: white;
+}
